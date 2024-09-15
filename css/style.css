@@ -1,0 +1,159 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #0D0D0D;
+    background-color: #260101;
+}
+
+.index-page-body {
+    background-color: #000; 
+    color: white;
+}
+
+.programacion-page-body {
+    background-color: #000; 
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    padding: 1em;
+}
+
+header img.header-logo {
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.8);
+}
+
+.navbar {
+    flex: 1;
+    background-color: #000;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #730202;
+}
+
+.carousel-section, .carousel-inner {
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.7); 
+    border-radius: 15px; 
+}
+
+.img-fluid.cursor-pointer  {
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.7); 
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #730202;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100vw;
+    height: 100px;
+}
+
+footer .footer-icons img {
+    width: 30px;
+    margin-left: 70px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.modal-content {
+    background-color: #400101;
+    color: #fff;
+    border-radius: 15px;
+}
+
+.modal-header, .modal-body, .modal-footer {
+    border-radius: 15px;
+}
+
+.modal-dialog {
+    border-radius: 15px;
+}
+
+.modal-body iframe {
+    border-radius: 15px;
+}
+
+.img-fluid.cursor-pointer {
+    border-radius: 15px;
+}
+
+@media (max-width: 600px) {
+    .header-central-img {
+        display: none;
+    }
+
+    .row {
+        gap: 15px;
+    }
+
+    footer {
+        font-size: 0.6rem;
+    }
+
+    .footer-icons img {
+        width: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .row {
+        gap: 15px;
+    }
+
+    .carousel-section .carousel-inner {
+        box-shadow: 0 2px 4px rgba(255, 255, 255, 0.5);
+    }
+
+    .carousel-inner img {
+        border-radius: 15px;
+    }
+
+    .modal-content {
+        border-radius: 15px;
+    }
+
+    .modal-body iframe {
+        border-radius: 15px;
+    }
+
+    .img-fluid.cursor-pointer {
+        border-radius: 15px;
+    }
+
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+    .footer-icons img {
+        width: 40px;
+    }
+}
+
+@media (min-width: 901px) {
+    .footer-icons img {
+        width: 50px;
+    }
+}
+

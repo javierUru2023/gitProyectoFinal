@@ -1,0 +1,10 @@
+/* Estilo para index.html */
+.card-img-top {
+    height: 150px;
+    object-fit: cover;
+}
+
+/* Estilo para modal de index */
+.modal-body iframe {
+    border: none;
+}
